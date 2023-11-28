@@ -1,0 +1,421 @@
+@font-face {
+	font-family: 'S-CoreDream-3Light';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html>body {
+	font-family: 'S-CoreDream-3Light';
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	color: #333;
+}
+
+#fullpage>.section {
+	min-height: 100vh;
+	max-width: 100vw;
+}
+
+.fp-watermark {
+	display: none;
+}
+
+/* page-1 구현 시작 */
+#fullpage>.page-1 {
+	background-color: #B2533E;
+	position: relative;
+}
+
+.artmate-process-1 {
+	color: #FCF5ED;
+}
+
+.artmate-process-1 .artmate-main-txt {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+.artmate-process-1 .artmate-main-title {
+	font-size: 90px;
+	padding-bottom: 35px;
+}
+
+.artmate-process-1 .artmate-main-content>p:first-child {
+	font-size: 35px;
+	letter-spacing: 1.5px;
+	padding-bottom: 20px;
+}
+
+.artmate-process-1 .artmate-main-content>p:last-child {
+	font-weight: 300;
+}
+
+.artmate-process-1 .artmate-main-img {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	top: 20%;
+}
+
+.artmate-process-1 .artmate-main-img>img {
+	width: 100%;
+	display: block;
+}
+
+.artmate-main-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #FCF5ED;
+	position: absolute;
+	top: 62%;
+	left: 10%;
+	transition: all .5s;
+}
+
+.artmate-main-btn:hover {
+	background-color: #FCF5ED;
+	color: #B2533E;
+}
+
+/* page-1 구현 끝 */
+
+/* page-2 구현 시작 */
+#fullpage .page-2 {
+	background-color: #F4EAE0;
+	position: relative;
+}
+
+.process-2__content-1 {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.process-2__content-1 .process-2__content-1-tittle {
+	font-size: 2rem;
+	color: #B2533E;
+}
+
+.process-2__content-1 .process-2__content-1-main>p:nth-child(1) {
+	font-size: 20px;
+	padding: 10px 0 20px 0;
+}
+
+.process-2__content-1 .process-2__content-1-main>p:nth-child(2) {
+	font-weight: 300;
+}
+
+.process-2__content-1 .process-2__content-1-main>p:nth-child(3) {
+	font-weight: 300;
+}
+
+.artmate-process-2 .process-2__bar-title>p {
+	position: absolute;
+	top: 38%;
+	color: #333;
+}
+
+.artmate-process-2 .process-2__bar-title>p:first-child {
+	left: 22%;
+}
+
+.artmate-process-2 .process-2__bar-title>p:nth-child(2) {
+	left: 48.5%;
+}
+
+.artmate-process-2 .process-2__bar-title>p:nth-child(3) {
+	left: 74%;
+}
+
+.artmate-process-2 .process-2__bar-img {
+	position: absolute;
+	width: 70%;
+	top: 43%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.artmate-process-2 .process-2__bar-content>p {
+	position: absolute;
+	top: 47%;
+	color: #333;
+}
+
+.artmate-process-2 .process-2__bar-content>p:nth-child(1) {
+	left: 23%;
+}
+
+.artmate-process-2 .process-2__bar-content>p:nth-child(2) {
+	left: 47.5%;
+}
+
+.artmate-process-2 .process-2__bar-content>p:nth-child(3) {
+	left: 72%;
+}
+
+.artmate-process-2 .process-2__bar-img>img {
+	width: 100%;
+}
+
+.artmate-process-2 .process-2__content-2 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 60px;
+	width: 70%;
+	height: 280px;
+}
+
+.process-2__content-2-inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.process-2__content-2-color,
+.process-2__content-2-text {
+	width: 50%;
+}
+
+.content-2-color__title {
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.content-2-color__main-box {
+	justify-content: center;
+	gap: 100px;
+}
+
+.content-2-color__main-box .color-r-img {
+	background-color: #B2533E;
+	box-shadow: 5px 5px 5px #888;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.content-2-color__main-box .color-w-img {
+	background-color: #FCF5ED;
+	box-shadow: 5px 5px 5px #888;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.color-w-title,
+.color-r-title {
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.content-2-text__title {
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.content-2-text__main-box {
+	text-align: center;
+}
+
+.content-2-text__main-box>p {
+	padding-bottom: 15px;
+}
+
+.content-2-text__main-box>p:nth-child(1) {
+	font-weight: 300;
+
+}
+
+.content-2-text__main-box>p:nth-child(2) {
+	font-size: 18px;
+
+}
+
+.content-2-text__main-box>p:nth-child(3) {
+	font-size: 22px;
+
+}
+
+.content-2-text__main-box>p:nth-child(4) {
+	font-size: 28px;
+}
+
+/* page-2 구현 끝 */
+/* page-3 구현 시작 */
+#fullpage .page-3 {
+	background-color: #F4EAE0;
+}
+
+.artmate-process-3 {
+	padding: 30px;
+	height: 100vh;
+	padding: 50px;
+}
+
+.artmate-process-3__content {
+	gap: 50px;
+}
+
+.process-3__content-text-box {
+	padding-top: 7%;
+	flex-grow: 1;
+}
+
+.process-3__content-text-box>h1 {
+	font-size: 18px;
+	color: #B2533E;
+	padding: 15px 0;
+	border-bottom: 2px solid #B2533E;
+}
+
+/* .process-3__content-text-box > p{
+padding: 15px 0 50px 0;
+} */
+.artmate-process-3 .artmate-process-3__title {
+	font-size: 2rem;
+	height: 10%;
+	color: #B2533E;
+}
+
+.artmate-process-3__content {
+	padding: 0 50px;
+	height: 90%;
+}
+
+.process-3__content-img-box {
+	flex-shrink: 0;
+	gap: 80px;
+	height: 100%;
+}
+
+.process-3__content-img-box img {
+	display: block;
+	height: 100%;
+}
+
+.process-3__content-img {
+	position: relative;
+}
+
+.process-3__content-img::before {
+	position: absolute;
+	font-size: 10px;
+	color: #888;
+	top: -4%;
+	right: 0;
+}
+
+.process-3__content-img-1::before {
+	content: "~1200px";
+}
+
+.process-3__content-img-2::before {
+	content: "1200px ~ 700px";
+}
+
+.process-3__content-img-3::before {
+	content: "700px ~";
+}
+
+/* page-3 구현 끝 */
+
+/* page-4 구현 시작 */
+#fullpage .page-4 {
+	background-color: #F4EAE0;
+}
+
+.artmate-process-4-wire {
+	padding: 30px;
+	height: 100vh;
+	flex-shrink: 0;
+}
+
+.process-4-wire__title {
+	font-size: 2rem;
+	height: 10%;
+	color: #B2533E;
+}
+
+.artmate-process-4-wire__content {
+	height: 90%;
+}
+
+.process-4-wire__content-img-box {
+	gap: 30px;
+	flex-shrink: 0;
+	height: 100%;
+}
+
+.process-4-wire__content-img {
+	height: 100%;
+}
+
+.process-4-wire__content-img-box img {
+	display: block;
+	height: 100%;
+}
+
+.artmate-process-4-sub {
+	background-color: #B2533E;
+	padding: 30px;
+	height: 100vh;
+}
+
+.process-4__content-text-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0;
+	flex-grow: 1;
+	color:#F4EAE0;
+	font-weight: 300;
+}
+
+.sub-img-box {
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.sub-img-box>img {
+	display: block;
+	width: 80%;
+}
+
+.artmate-process-4-sub .artmate-process-4__title {
+	font-size: 2rem;
+	height: 10%;
+	color: #F4EAE0;
+}
+
+.artmate-process-4__content {
+	gap: 30px;
+	height: 90%;
+}
+
+.process-4__content-img-box {
+	flex-shrink: 0;
+	height: 100%;
+}
+
+.process-4__content-img {
+	height: 100%;
+}
+
+.process-4__content-img-box img {
+	display: block;
+	height: 100%;
+}
+
+/* page-4 구현 끝 */
